@@ -2,63 +2,63 @@
     {
         "serialNumber":"1",
         "name":"Icecream",
-        "quantity":"4",
+        "quantity":4,
         "unit":"ltr",
         "department":"Frozen Foods",
-        "notes":"either chocolate or butterscotch"
+        "notes":"Either chocolate or butterscotch"
     },
     {
         "serialNumber":"2",
         "name":"Mangoes",
-        "quantity":"3",
+        "quantity":3,
         "unit":"kg",
         "department":"Produce",
-        "notes":"make sure it's ripe enough"
+        "notes":"Make sure it's ripe enough"
     },
     {
         "serialNumber":"3",
         "name":"Puffs",
-        "quantity":"10",
+        "quantity":10,
         "unit":"nos",
         "department":"Bakery",
-        "notes":"only go for the egg puffs if meat puffs is not available."
+        "notes":"Only go for the egg puffs if meat puffs is not available."
     },
     {
         "serialNumber":"4",
         "name":"Ketchup",
-        "quantity":"1",
+        "quantity":1,
         "unit":"nos",
         "department":"Canned Goods",
-        "notes":"tomato ketchup"
+        "notes":"Tomato ketchup"
     },
     {
         "serialNumber":"5",
         "name":"Milk",
-        "quantity":"1",
+        "quantity":1,
         "unit":"ltr",
         "department":"Dairy",
-        "notes":"check the package for any leaks"
+        "notes":"Check the package for any leaks"
     },
     {
         "serialNumber":"6",
-        "name":"LaundryDetergent",
-        "quantity":"500",
-        "unit":"grams",
+        "name":"Laundry Detergent",
+        "quantity":500,
+        "unit":"g",
         "department":"Cleaners",
-        "notes":"either surfexel or tide"
+        "notes":"Either surfexel or tide"
     },
     {
         "serialNumber":"7",
-        "name":"DishwashingLiquid",
-        "quantity":"1",
+        "name":"Dishwashing Liquid",
+        "quantity":1,
         "unit":"ltr",
         "department":"Cleaners",
-        "notes":"vim"
+        "notes":"Vim"
     },
     {
         "serialNumber":"8",
         "name":"Soap",
-        "quantity":"5",
+        "quantity":5,
         "unit":"nos",
         "department":"Personal Care",
         "notes":"Chandrika"
@@ -66,23 +66,23 @@
     {
         "serialNumber":"9",
         "name":"Shampoo",
-        "quantity":"0.5",
+        "quantity":0.5,
         "unit":"ltr",
         "department":"Personal Care",
         "notes":"Shine"
     },
     {
         "serialNumber":"10",
-        "name":"CorianderLeaves",
-        "quantity":"200",
-        "unit":"grams",
+        "name":"Coriander Leaves",
+        "quantity":200,
+        "unit":"g",
         "department":"Produce",
-        "notes":"make sure it's fresh"
+        "notes":"Make sure it's fresh"
     },
     {
         "serialNumber":"11",
         "name":"Soda",
-        "quantity":"1",
+        "quantity":1,
         "unit":"ltr",
         "department":"Beverages",
         "notes":"McDonald"

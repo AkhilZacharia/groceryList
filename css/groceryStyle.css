@@ -1,5 +1,36 @@
+
+body{
+  font-family: 'Monoton', cursive;
+}
+nav{
+  background: none;
+}
+#output{
+  z-index: 3;
+  text-align: center;
+  /* background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+h1{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #3498db;
+  font-family: 'Monoton', cursive;
+  color: #ecf0f1;
+}
+span{
+  color: #c7ecee;
+}
+nav  {
+  color: aliceblue;
+}
 table {
-    font-family: arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    /* font-family: arial, sans-serif; */
+    font-family: 'Baloo Tamma 2', cursive;
     border-collapse: collapse;
     width: 100%;
   }
@@ -11,14 +42,83 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #acbcf3;
+    color: white;
+  }
+  tr:nth-child(odd) {
+    background-color: whitesmoke;
   }
 
   tr:nth-child(1) {
-    background-color: indigo;
+    background:linear-gradient(indigo,#130f40);
     color: aliceblue;
   }
 
   td:nth-child(6) {
-    color:red;
+    color:#218c74;
   }
+
+  .demo{
+    width: 100%;
+    height: 450px;
+   /* padding-top: 60px;
+   padding-bottom: 20px; */
+    position: relative;
+    text-align: center;
+  }
+  .demo::after{
+    content: "";
+    background-image: url("../images/bg.jpg");
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .butn{
+    margin: 50px;
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: #ecf0f1;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .butn::before,.butn::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #353b48;
+    transform: skewX(50deg);
+    transition: .4s linear;
+  }
+  
+  .butn::before{
+    top: -4px;
+    left: 10%;
+  }
+  
+  .butn::after{
+    bottom: -4px;
+    right: 10%;
+  }
+  
+  .butn:hover::before{
+    left: 80%;
+  }
+  
+  .butn:hover::after{
+    right: 80%;
+  }
+  
